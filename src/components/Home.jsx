@@ -10,10 +10,28 @@ return (
     <Jumbotron>
     <h2> Welcome to Outback Tracks </h2>
     <p> Your tracks destination </p>
-    </Jumbotron>
     <Link to="/about">
     <Button bsStyle="primary">Recent Tracks</Button>
-    </Link>
+      </Link>
+    </Jumbotron>
+    <Row className="show-grid text-center">
+
+      <Col xs={12} sm={4} className="person-wrapper">
+        <Image src="assets/pexels-photo-26681.jpg" className="profile-pic" />
+        <p> Ad Lorem Ipsum Ad Lorem Ipsum Ad Lorem Ipsum </p>
+        </Col>
+
+        <Col xs={12} sm={4} className="person-wrapper">
+          <Image src="assets/pexels-photo-634010.jpg" className="profile-pic" />
+          <p> Ad Lorem Ipsum Ad Lorem Ipsum Ad Lorem Ipsum </p>
+          </Col>
+
+          <Col xs={12} sm={4} className="person-wrapper">
+            <Image src="assets/pexels-photo-1089070.jpg" className="profile-pic" />
+            <p> Ad Lorem Ipsum Ad Lorem Ipsum Ad Lorem Ipsum </p>
+            </Col>
+
+        </Row>
   </Grid>
     )
   }
