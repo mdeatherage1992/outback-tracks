@@ -12,7 +12,7 @@ return (
     <p> Your tracks destination </p>
     </Jumbotron>
     <Link to="/about">
-    <Button> bsStyle="primary">Recent Tracks</Button>
+    <Button bsStyle="primary">Recent Tracks</Button>
     </Link>
   </Grid>
     )
