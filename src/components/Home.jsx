@@ -22,7 +22,7 @@ return (
         </Col>
 
         <Col xs={12} sm={4} className="person-wrapper">
-          <Image src="assets/pexels-photo-634010.jpg" className="profile-pic" />
+          <Image src="assets/road-red-street-sign.jpg" className="profile-pic" />
           <p> Ad Lorem Ipsum Ad Lorem Ipsum Ad Lorem Ipsum </p>
           </Col>
 
